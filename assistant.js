@@ -803,7 +803,7 @@ async function afficherDetailDemande(id) {
         const statusMsg = document.createElement('div');
         statusMsg.className = 'message-bubble assistant fade-in demande-detail-msg';
 
-        if (data.statut === 'traite') {
+        if (data.statut === 'pret') {
             statusMsg.innerHTML = `<span class="text-green-600 dark:text-green-400 font-medium">
                 ✅ Votre certificat est prêt. Vous pouvez le récupérer au service de scolarité.
             </span>`;
